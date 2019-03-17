@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'google fonts';
+  src: url('../../Google-Sans-Fonts/GoogleSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'google fonts';
+  src: url('../../Google-Sans-Fonts/GoogleSans-Medium.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'google fonts';
+  src: url('../../Google-Sans-Fonts/GoogleSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+.login-wrapper {
+  height: 100vh;
+}
+.login-form-wrapper {
+  width: 100%
+}
+.login-title {
+  width: 100%;
+  text-align: center;
+  font-family: "google fonts";
+  font-weight: 400;
+  color: #1C7BF6;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+.login-subtitle {
+  color: #C1DAFD;
+  font-size: 1rem;
+  font-family: "google fonts";
+  font-weight: 600;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+.login-form {
+  padding: 10px 0;
+}
+.login-input {
+  margin: 0.8rem 0;
+}
+.login-btn {
+  width: 100%;
+  font-family: "google fonts";
+  font-weight: 600;
+  margin: 0.8rem 0;
+}
+.login-divider {
+  color: #aaa !important;
+  margin: 0 !important;
+}
+.login-bg-wrapper {
+  background-image: url('./bg.svg');
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}

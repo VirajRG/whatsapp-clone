@@ -1,0 +1,18 @@
+.search-user-wrapper {
+  padding: 0.5rem 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.search-user {
+  width: 95%;
+}
+.search-user .ant-input {
+  border: 1px solid #eee;
+}
+.user-card {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.user-card .ant-card-body {
+  padding: 1rem;
+}

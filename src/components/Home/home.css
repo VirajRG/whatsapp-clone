@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'google fonts';
+  src: url('../../Google-Sans-Fonts/GoogleSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'google fonts';
+  src: url('../../Google-Sans-Fonts/GoogleSans-Medium.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'google fonts';
+  src: url('../../Google-Sans-Fonts/GoogleSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+}
+.header .logo {
+  color: #1890ff;
+  font-family: "google fonts";
+  font-family: 600;
+  font-size: 1.8rem;
+  width: fit-content;
+}
+.header .github {
+  font-size: 1.2rem;
+  color: #24244E;
+  text-decoration: none;
+  font-family: "google fonts";
+}
+.header .github:hover {
+  text-decoration: none;
+}
+.header .left-wrapper {
+  line-height: 64px;
+}
+.header .space-btn {
+  font-family: "google fonts";
+  margin-left: 2rem;
+  font-family: 700;
+  font-size: 1rem;
+}
+
+/* Sider */
+.custom-sider {
+  display: flex;
+  flex-direction: row;
+}
+.ant-layout-sider-children {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.profile-wrapper {
+  height: 100%;
+  width: 100px;
+  background-color: #24244E;
+  z-index: 4;
+  padding: 1rem 0;
+  text-align: center;
+}
+.conv-wrapper {
+  border-right: 1px solid #ccc;
+  color: #fff;
+  width: 100%;
+  z-index:3;
+}
+.setting-icon {
+  color: #A7A7DE;
+  font-size: 1.6rem;
+  margin: 0.8rem 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.add-friend-icon {
+  color: #b9b9df;
+  margin: 0.8rem 0;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.setting-icon:hover, .add-friend-icon:hover {
+  color: #c8c8ea;
+}
+.users li {
+  color: #000;
+}
